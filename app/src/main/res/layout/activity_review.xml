@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.review.Review_Activity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="269dp"
+        android:layout_height="89dp"
+        android:text="판매자가 친절하고 상품상태가 좋았어요~!!"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/border"
+        />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="37dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="18dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitEnd"
+        android:src="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/image1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="80dp"
+        android:text="김아미님의 후기"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="15dp"
+        android:text="글쓰기" />
+
+
+</RelativeLayout>

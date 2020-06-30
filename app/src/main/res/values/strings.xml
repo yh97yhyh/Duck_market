@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">오리마켓</string>
+    <string name="tilte_category">Category</string>
+    <string name="title_home">Home</string>
+    <string name="title_write">Write</string>
+    <string name="title_myshop">MyShop</string>
+    <string name="title_message">Message</string>
+</resources>

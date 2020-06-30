@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.duck_market.ui.category.Category_Fragment"
+        android:label="@string/tilte_category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.duck_market.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_write"
+        android:name="com.example.duck_market.ui.Write.WriteFragement"
+        android:label="@string/title_write"
+        tools:layout="@layout/fragment_write" />
+
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.example.duck_market.ui.Message.MessageFragment"
+        android:label="@string/title_message"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/navigation_myshop"
+        android:name="com.example.duck_market.ui.myshop.MyShopFragment"
+        android:label="@string/title_myshop"
+        tools:layout="@layout/fragment_myshop" />
+</navigation>
